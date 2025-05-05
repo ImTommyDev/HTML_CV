@@ -23,10 +23,12 @@ Incluye etiquetas en el `<head>` como:
 
 ```html
 <meta charset="UTF-8">
-<meta name="description" content="Currículum de [Tu Nombre], desarrollador frontend.">
-<meta name="keywords" content="CV, HTML, desarrollador, frontend, portafolio">
-<meta name="author" content="[Nombre]">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="CV de Tomás Primo Rico, desarrollador frontend junior especializado en HTML, CSS, JavaScript, React y Node.js.">
+<meta name="keywords" content="Frontend, Desarrollador web, HTML, CSS, JavaScript, React, Node.js, CV">
+<meta name="author" content="Tomás Primo Rico">
+<meta name="robots" content="index, follow">
+...
 ```
 
 ### 3. Etiquetas Open Graph (OG)
@@ -34,11 +36,11 @@ Incluye etiquetas en el `<head>` como:
 Mejora la apariencia al compartir en redes sociales:
 
 ```html
-<meta property="og:title" content="Currículum de [Nombre]" />
-<meta property="og:description" content="Conoce mi experiencia, habilidades y educación." />
-<meta property="og:image" content="url-de-tu-imagen.jpg" />
-<meta property="og:url" content="https://tucv.com" />
-<meta property="og:type" content="website" />
+<meta property="og:title" content="CV de Tomás Primo Rico">
+<meta property="og:description" content="Desarrollador frontend junior con experiencia en React, Node.js y desarrollo web.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="/images/favicon.ico">
+...
 ```
 
 ### 4. Favicon
@@ -46,5 +48,5 @@ Mejora la apariencia al compartir en redes sociales:
 Agregar un icono representativo en la pestaña del navegador:
 
 ```html
-<link rel="icon" href="favicon.ico" type="image/x-icon">
+<link rel="icon" type="image/x-icon" href="/images/favicon.ico">
 ```
