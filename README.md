@@ -50,3 +50,7 @@ Agregar un icono representativo en la pestaña del navegador:
 ```html
 <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
 ```
+
+### 5. Roadmap
+
+Este proyecto es el primer proyecto del roadmap de frontend en roadmap.sh, el enlace al proyecto es el siguiente: https://roadmap.sh/projects/single-page-cv
